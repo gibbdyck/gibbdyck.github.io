@@ -197,3 +197,69 @@ img {
     max-width:100%;
 max-height:100%;
 }
+
+@media only screen and (max-device-width: 599px) {
+	#mainHeader {
+		font-family: Verdana;
+		color: #00ff00;
+	}
+
+	#bodyBlock {
+		width: 100%;
+	}
+
+	#navBar {
+		left: 0;
+		width: 100%;
+	}
+
+	#navBar li {
+		float: none;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+
+	#navBar li a {
+		color: #00ff00;
+	}
+
+	#memberContainer {
+		width: 100%;
+	}
+
+	#memberLeft {
+		width: 100%;
+	}
+
+	#memberRight {
+		width: 100%;
+		float: left;
+	}
+
+	#infoContainer {
+		width: 100%;
+	}
+
+	#leftBlock {
+		width: 100%;
+	}
+
+	#rightBlock {
+		width: 100%;
+		float: left;
+	}
+
+	#videoContainer {
+		width: 100%;
+	}
+
+	#videoLeftBlock {
+		width: 100%;
+	}
+
+	#videoRightBlock {
+		width: 100%;
+		float: left;
+		height: auto;
+	}
+}
