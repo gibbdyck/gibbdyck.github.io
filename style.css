@@ -1,5 +1,6 @@
 body {
   min-height: 2000px;
+  overflow: visible;
 }
 
 .navbar-static-top {
